@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/images/task-32.png" type="image/x-icon">
+  <title>LISTA DE TAREFAS</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/fontawesome/all.min.css">
+</head>
+<body>
+
+  <div class="container my-5">
+
+    <!-- CABEÇALHO -->
+    <div class="row mb-4">
+      <div class="col">
+        <div class="d-flex justify-content-start">
+          <img src="assets/images/task-32.png" alt="Logo" class="img-fluid me-3" width="40px">
+          <h1>Lista de Tarefas</h1>
+        </div>
+        <hr class="my-3">
+      </div>
+      
+  <!-- CRIAR NOVA TAREFA -->
+    <div class="row">
+      <div class="col">
+
+        <h3>Eliminar Tarefa</h3>
+        <h3 class="text-center text-info mb-3" id="task_text">[texto]</h3>
+        <h4 class="text-center mb-5" id="task_status">[Status]</h4>
+        <div class="text-center">
+          <a href="index.html" class="btn btn-secondary">Cancelar</a>
+          <button class="btn btn-primary" id="btn_eliminar">Eliminar</button>
+        </div>
+      </div>
+    </div>
+    
+    <!-- FOOTER -->
+    <div class="row mt-3">
+      <div class="col text-center">
+        <hr>
+        <p>Lista de tarefas &copy; 2023</p>
+      </div>
+    </div>
+
+
+  </div>
+    
+  <script src="assets/js/delete_task.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
