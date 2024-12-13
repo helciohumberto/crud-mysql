@@ -64,11 +64,7 @@ Um sistema CRUD completo para gerenciamento de dados, utilizando Node.js no back
 ```plaintext
 .
 ├── backend
-│   ├── app.js          # Arquivo principal do servidor
-│   ├── config.js       # Configuração do banco de dados
-│   ├── routes          # Rotas da API
-│   ├── controllers     # Lógica do CRUD
-│   └── models          # Modelos para o banco de dados
+│   ├── server.js          # Arquivo principal do servidor
 ├── frontend
 │   ├── index.html      # Página principal do frontend
 │   ├── css             # Estilos adicionais
