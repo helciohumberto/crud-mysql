@@ -99,3 +99,5 @@ Este projeto está licenciado sob a [MIT License](LICENSE).
 
 **Hélcio Humberto**  
 [LinkedIn](https://www.linkedin.com/helciohumberto) | [GitHub](https://github.com/helciohumberto)
+
+.................................................................................................
